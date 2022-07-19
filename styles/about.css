@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 130px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #FFFFFF;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
+}
+section{
+    max-width: 100%;
+    min-height:60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #38383B;
+    color: #FFFFFF;
+    padding: 3rem 0rem;
+}
+.company-logo{
+    width: 30%;
+    max-width: 500px;
+}
+.company-desc{
+    max-width: 40%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vw;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:600px) {
+    header{
+        font-weight: 400;
+        font-size: 10vw;
+    }
+    section{
+        flex-direction: column-reverse;
+    }
+    .company-logo{
+        width: 70%;
+        margin: 2rem;
+    }
+    .company-desc{
+        max-width: 70%;
+        line-height: 30px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .company-desc{
+      font-size: 25px;
+    }
+}

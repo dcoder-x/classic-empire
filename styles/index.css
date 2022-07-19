@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    
+}
+main{
+    scroll-snap-type:  mandatory !important;
+}
+.hero{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url(../images/hero.jpeg);
+  background-repeat: no-repeat !important;
+  background-size: 100%;
+  background-position: center;
+}
+
+.text-logo{
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 76px;
+    text-align: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero p{
+    margin: 0;
+}
+.empire{
+    color:#F58632 ;
+}
+.hero-text{
+    max-width: 40%;
+    font-family: 'Revalia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    text-align: left;
+    color: #FFFFFF;
+}
+.section{
+    width: 100%;
+    height: 105vh;
+    object-position: 50% 50%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: left;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    scroll-snap-align: start;
+    border-bottom: 50px rgba(85, 81, 81, 0.511) solid;
+}
+.about{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/resized2/about.jpg);
+}
+.artist{
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/resized2/artist.jpg);
+}
+.studio{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/resized2/studio.jpg);
+}
+.promotions{
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/resized2/promotion.jpg);
+}
+.media{
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(../images/resized2/media.jpg);
+}
+
+.section-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 130px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 3rem;
+}
+.section button{
+    background-color: #f58632;
+    height: 60px;
+    width: 150px;
+    color: white;
+    border: none;
+    box-shadow: #38383bbc 2px 2px 10px;
+    border-radius: 3px;
+}
+.maling-list{
+    min-height: 30vh;
+    background-color: #38383B;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+form{
+    padding: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    padding: .6rem;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0px;
+    font-size: 16px;
+    width: 40%;
+    margin: .7rem 1rem;
+}
+form button{
+    padding: .6rem;
+    background: #A8A6A1 ;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width:1000px) {
+    .section{
+        background-position: center;
+    }
+    .section-text{
+        font-size: 12vw;
+    }
+}
+@media screen and (max-width:770px) {
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .hero-text{
+        min-width: 90vw;
+        font-size: 4vw;
+        line-height: 30px;
+        
+    }
+    .text-logo{
+        flex-direction: row;
+        font-size: 10vw;
+        margin-bottom: 4rem;
+    }
+    .section button{
+        height: 50px;
+        width: 120px;
+    }
+    .maling-list{
+        font-size: 0.5rem;
+        padding: 4rem 0;
+    }
+    form{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+
+    }
+    form button{
+        width: 100px;
+        height: 35px;
+        margin: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    form input{
+        height: 35px;
+        width: 80%;
+    }
+}
