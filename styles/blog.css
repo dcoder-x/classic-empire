@@ -5,7 +5,7 @@ body{
     background-color: #38383B;
 }
 header{
-    height: 70vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,11 @@ header{
     line-height: 130px;
     text-align: center;
     color: #FFFFFF;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/media.jpg);
+    border-radius: 0px 0px 50px 50px;
+    background-position: left;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/blog.jpg);
 }
 main{
     max-width: 100%;
@@ -90,5 +94,8 @@ section{
         width: 80vw;
         height: 80vw;
         margin: 3rem 0;
+    }
+    .content:nth-child(5){
+        margin-bottom: 7rem;
     }
 }

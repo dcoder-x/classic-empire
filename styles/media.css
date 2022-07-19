@@ -2,9 +2,10 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #38383B;
 }
 header{
-    height: 60vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +16,10 @@ header{
     line-height: 130px;
     text-align: center;
     color: #FFFFFF;
+    border-radius: 0px 0px 50px 50px;
+    background-position: left;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/media.jpg);
 }
 main{

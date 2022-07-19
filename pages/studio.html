@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="/styles/studio.css">
+    <script src="https://dcoder-x.github.io/htmlReusable/reusable.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="../scripts/footer.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
+    <nav-bar>
+
+    </nav-bar>
     <header>
         STUDIO
     </header>
@@ -15,8 +23,77 @@
         <h3>
             Book a Session
         </h3>
+        <section class="pricing">
+
+            <div class="price-cards" data-aos="fade-down-right" data-aos-delay="100">
+                <h2 class="plan">
+                    Track
+                </h2>
+                <h1 class="price">
+                    $250
+                </h1>
+                <ul class="details">
+                    <li>
+                        ALL platforms
+                    </li>
+                    <li>
+                        ALL Shows
+                    </li>
+                    <li>
+                        Hot collab
+                    </li>
+                    <li>
+                        ALL platfoms
+                    </li>
+                </ul>
+            </div>
+            <div class="price-cards" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="plan plan2">
+                    EP
+                </h2>
+                <h1 class="price">
+                    $250
+                </h1>
+                <ul class="details">
+                    <li>
+                        ALL platforms
+                    </li>
+                    <li>
+                        ALL Shows
+                    </li>
+                    <li>
+                        Hot collab
+                    </li>
+                    <li>
+                        ALL platfoms
+                    </li>
+                </ul>
+            </div>
+            <div class="price-cards" data-aos="fade-up-left" data-aos-delay="100">
+                <h2 class="plan plan3">
+                    Album
+                </h2>
+                <h1 class="price">
+                    $250
+                </h1>
+                <ul class="details">
+                    <li>
+                        ALL platforms
+                    </li>
+                    <li>
+                        ALL Shows
+                    </li>
+                    <li>
+                        Hot collab
+                    </li>
+                    <li>
+                        ALL platfoms
+                    </li>
+                </ul>
+            </div>
+        </section>
         <div class="contact">
-            <form action="" method="post">
+            <form action="" method="post" data-aos="fade-right">
                 <div class="name">
                     <p>
                         Name
@@ -36,7 +113,7 @@
                     Send Message
                 </button>
             </form>
-            <div class="contact-info-holder">
+            <div class="contact-info-holder" data-aos="fade-left">
                 <div class="contact-info">
                     <h3>
                         Address
@@ -59,8 +136,11 @@
                     <h3>
                         Socials
                     </h3>
-                    <div class="social-icons">
-                        
+                    <div class="socials" >
+                        <span class="iconify" data-aos="fade-up" data-icon="ic:baseline-email" style="color: #f58632;"></span>
+                        <span class="iconify" data-aos="fade-up-delay-2s"  data-icon="entypo-social:facebook-with-circle" style="color: #f58632;"></span>
+                        <span class="iconify" data-icon="ant-design:twitter-circle-filled" style="color: #f58632;"></span>
+                        <span class="iconify" data-icon="bxl:instagram-alt" style="color: #f58632;"></span>
                     </div>
                     <hr>
                 </div>
@@ -71,5 +151,13 @@
         </div>
 
     </main>
+    <footer-bar>
+        
+    </footer-bar>
+    <script src="../scripts/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 </html>

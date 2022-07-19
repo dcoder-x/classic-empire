@@ -16,24 +16,24 @@ rel="stylesheet"
       <i class='bx bx-x' ></i>
     </div>
     <ul class="links">
-    <li><a href="index.html">Home</a></li>
+    <li><a href="../index.html">Home</a></li>
     <li><a href="../pages/about.html">About</a></li>
       <li>
         <a href="#">Services</a>
         <i class='bx bxs-chevron-down about-arrow arrow  '></i>
         <ul class="htmlCss-sub-menu-1 sub-menu">
-          <li><a href="../pages/history.html">Artist Management</a></li>
-          <li><a href="../pages/about.html">Studio Booking</a></li>
-          <li><a href="#">Artist Promotion</a></li>     
+          <li><a href="../pages/management.html">Artist Management</a></li>
+          <li><a href="../pages/studio.html">Studio Booking</a></li>
+          <li><a href="../pages/promotion.html">Artist Promotion</a></li>     
         </ul>
       </li>
       <li>
         <a href="#">Media</a>
         <i class='bx bxs-chevron-down js-arrow arrow '></i>
         <ul class="js-sub-menu sub-menu">
-          <li><a href="#">Blogs</a></li>
+          <li><a href="../pages/blog.html">Blogs</a></li>
           <li><a href="#">News</a></li>
-          <li><a href="../pages">Gallery</a></li>
+          <li><a href="../pages/media.html">Gallery</a></li>
         </ul>
       </li>
       <li><a href="../pages/contact.html">Contact</a></li>

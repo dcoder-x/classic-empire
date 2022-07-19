@@ -20,23 +20,50 @@ header{
     background-position: left;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/studio.jpg);
-}
-.title{
-    color: #FFFFFF;
-    font-size: 40px;
-    text-align: center;
-    padding-top: 3rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/artist.jpg);
 }
 main{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: center;
-    background-color: #38383B;
     color: #FFFFFF;
     padding: 3rem 0rem;
+    background-color: #38383B;
+    min-height: 70vh;
+}
+.content-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.what-you-get{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.what-you-get img{
+    width: 70%;
+    margin: 1rem 2rem;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 3rem;
+}
+.offer{
+    width: 25vw;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:3rem;
+    color: #F58632;
+    font-size: 30px;
+    text-align: center;
 }
 .pricing{
     display: flex;
@@ -66,7 +93,6 @@ main{
     background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    text-align: center;
     margin: 0%;
 }
 .plan2{
@@ -84,79 +110,28 @@ main{
     margin: 2rem;
     font-size: 35px;
 }
-form{
-    display: flex;
-    flex-direction: column;
-    font-size: 15px;
-    justify-content: space-evenly;
-    min-width: 40%;
-}
-form input{
-    margin: 1rem 0rem;
-    height: 50px;
-    max-width: 400px;
-    background-color: transparent;
-    border: white .6px solid;
+.get-started{
     color: white;
-    padding: 0 1rem;
-    border-radius: 5px;
-}
-
-.name{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.name input{
-    margin: 0rem;
-}
-.name label{
-    margin:  1rem 0rem ;
-}
-#message{
-    height: 200px;
-}
-form button{
-    background-color: #F58632;
-    height: 55px;
-    width: 40%;
     border: none;
-    color: #FFFFFF;
-    margin: 1rem 0;
-}
-.contact{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-}
-.contact-info-holder{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 80%;
-}
-.contact-info{
-    width: 100%;
-    padding: 1rem;
-}
-.contact-info  hr{
-    margin-top: 1.5rem;
-}
-.contact-info small{
-    font-size: 15px;
-    color: #F58632;
-}
-.iconify{
-    width: 50px;
-    height: 50px;
-    margin: 1rem;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+    background: #ff7e5f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 @media screen and (max-width:1000px) {
     header{
         font-size: 12vw;
         background-position: center !important;
+    }
+    .what-you-get{
+        flex-direction: column;
+    }
+    .what-you-get img{
+        width: 50%;
+    }
+    .offer{
+        width: 100%;
     }
     .pricing{
         flex-direction: column;
@@ -166,31 +141,10 @@ form button{
         margin: 2rem;
     }
 }
-@media screen and (max-width:770px) {
-    footer{
-        text-align: center;
-        font-size: 0.6rem;
-       
-    }
-    .iconify{
-        width: 30px;
-        height: 30px;
-    }
-    .contact{
-        flex-direction: column;
-        text-align: center;
-    }
-    form{
-        min-width: 80%;
-        text-align: left;
-    }
-    form button{
-        width: 100%;
-    }
-}
-@media screen and (max-width:500px) {
-    .price-cards{
-        width: 90%;
-        margin: 2rem 0;
+@media screen and (max-width:700px) {
+    .content{
+        width: 80vw;
+        height: 80vw;
+        margin: 3rem 0;
     }
 }

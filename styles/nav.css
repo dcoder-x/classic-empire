@@ -6,8 +6,12 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 body{
   min-height: 100vh;
+  overflow-x: hidden;
 }
 nav{
   position: fixed;
@@ -187,7 +191,7 @@ nav .navbar .links li:hover .js-sub-menu{
   }
   .sidebar-logo a{
     font-size: 25px;
-    color: #0000fe;
+    color: #F58632;
     text-decoration: none;
     font-style: italic;
     font-weight: bold;
