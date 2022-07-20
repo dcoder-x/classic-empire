@@ -104,6 +104,7 @@ main{
     border: none;
     box-shadow: #38383bbc 2px 2px 10px;
     border-radius: 3px;
+    cursor: pointer;
 }
 .maling-list{
     min-height: 30vh;
