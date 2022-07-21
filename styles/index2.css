@@ -414,12 +414,12 @@ section{
         margin-bottom: -.1rem;
     }
     .slider-tracker{
-        bottom: 7rem;
+        bottom: 10rem;
     }
     .slider{
-        height: 70vh;
+        height: 50vh;
         background-size: cover !important;
-        background-position: center;
+        background-position: center !important;
         margin-top: 5rem;
     }
     .about-content div{
