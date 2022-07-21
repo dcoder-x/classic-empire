@@ -1,94 +1,203 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="./styles/index2.css">
     <script src="https://dcoder-x.github.io/htmlReusable/reusable.js"></script>
     <script src="../scripts/navbar.js"></script>
     <script src="./scripts/footer.js"></script>
     <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
-
-    <title>Classic Empire</title>
+    <title>Document</title>
 </head>
 <body>
     <nav-bar></nav-bar>
-    <header class="hero">
-        <div class="text-logo"> 
+    <header>
+        <div class="slider">
             <p class="classic animate__animated animate__backInDown animate__slow">
-                Classic
+              We are  Classic
             </p>
             <p class="empire animate__animated animate__backInLeft animate__slow">
                 Empire
             </p>
         </div>
-        <p class="hero-text animate__animated animate__backInUp animate__slow">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Illum adipisci facere at impedit, cupiditate architecto 
-            similique doloribus consequatur enim quisquam, animi dolores reiciendis necessitatibus deserunt! Deleniti suscipit ipsum officia. Fuga.
-        </p>
     </header>
     <main>
-
-        <section class="about section" data-aos="zoom-in-up">
-            <p class="section-text" data-aos="slide-up">ABOUT US</p>
-            <a href="../pages/about.html">
-                <button data-aos="zoom-in">
-                    View
-                </button>
-            </a>
-
+        <section class="about">
+            <div class="section-title">
+                <p>ABOUT <span>US</span></p>
+                <hr>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./images/Classic empire (1).png" alt="">
+                </div>
+                <div class="about-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Dicta facilis id atque aliquid tempora natus 
+                    soluta. Voluptatibus veritatis, inventore neque nostrum 
+                    quo nisi culpa, placeat quia repellat iure sunt hic.
+    
+                    <div class="awards">
+                        <img src="./images/Rectangle.png" alt="">
+                    </div>
+                </div>
+            </div>
+    
         </section>
-        <section class="artist section" data-aos="zoom-in-up">
-            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/artist.jpg" alt=""> -->
-            <p class="section-text"data-aos="slide-up">ARTIST MANAGEMENT</p>
-            <button data-aos="zoom-in">
-                View
-            </button>
-        </section>
-        <section class="studio section" data-aos="fade-right">
-            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/studio.jpg" alt=""> -->
-            <p class="section-text"data-aos="slide-up">STUDIO</p>
-            <button data-aos="zoom-in">
-                View
-            </button>
-        </section>
-        <section class="promotions section"data-aos="fade-left">
-            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/promotion.jpg" alt=""> -->
-            <p class="section-text"data-aos="slide-up">PROMOTIONS</p>
-            <button data-aos="zoom-in">
-                View
-            </button>
-        </section>
-        <section class="media section"data-aos="zoom-in-up">
-            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/media.jpg" alt=""> -->
-            <p class="section-text"data-aos="slide-up">MEDIA</p>
-            <button data-aos="zoom-in">
-                View
-            </button>
-        </section>
-        <section class="maling-list"data-aos="zoom-in-down">
-            <p>
-                Sign up with your email to join our mailing list
+        <section class="services">
+            <div class="section-title">
+                <p>OUR SERVICES</p>
+                <hr>
+            </div>
+            <p class="services-text">
+    
             </p>
-            <form action="">
-                <input type="text" placeholder="e-mail address...">
-                <button type="submit">
-                    Sign Up
-                </button>
-            </form>
+            <div class="service">
+                <div class="image">
+                    <img src="./images/resized2/artist.jpg" alt="" srcset="">
+                </div>
+                <div class="details">
+                    <div class="title">
+                        ARTIST MANAGEMENT
+                    </div>
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Eligendi totam eius quos magni beatae. Culpa dolorum in soluta, doloremque 
+                        recusandae quasi at maiores ducimus neque esse dignissimos ipsa ea placeat!
+                    </div>
+                    <a href="pages/management.html">
+                        <button class="button">
+                            View
+                        </button>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="service">
+                <div class="image">
+                    <img src="./images/resized2/studio.jpg" alt="" srcset="">
+                </div>
+                <div class="details">
+                    <div class="title">
+                        STUDIO BOOKING
+                    </div>
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Eligendi totam eius quos magni beatae. Culpa dolorum in soluta, doloremque 
+                        recusandae quasi at maiores ducimus neque esse dignissimos ipsa ea placeat!
+                    </div>
+                    <a href="pages/studio.html">
+                        <button class="button">
+                            View
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="service">
+                <div class="image">
+                    <img src="./images/resized2/promotion.jpg" alt="" srcset="">
+                </div>
+                <div class="details">
+                    <div class="title">
+                        ARTIST PROMOTION
+                    </div>
+                    <div class="desc">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Eligendi totam eius quos magni beatae. Culpa dolorum in soluta, doloremque 
+                        recusandae quasi at maiores ducimus neque esse dignissimos ipsa ea placeat!
+                    </div>
+                    <a href="pages/promotion.html">
+                        <button class="button">
+                            View
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
         </section>
-        <footer-bar></footer-bar>
+        <section class="team">
+            <div class="section-title">
+                <p>THE TEAM</p>
+                <hr>
+            </div>
+            <div class="members">
+                <div class="member">
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum ex perspiciatis 
+                    </h4>
+                </div>
+                <div class="member">
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum ex perspiciatis 
+                    </h4>
+                </div>
+                <div class="member">
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum ex perspiciatis 
+                    </h4>
+                </div>
+                <div class="member">
+                    <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laborum ex perspiciatis 
+                    </h4>
+                </div>
+            </div>
+        </section>
+        <div class="section-title">
+            <p>PEOPLE'S <span>WORDS</span></p>
+            <hr>
+        </div>
+        <section class="testimonies">
+
+            <div class="testimony">
+                <div class="testifier">
+                    Jaylo
+                </div>
+                <div class="desc">
+                    <q>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Commodi esse omnis facilis voluptas mollitia reprehenderit quae, 
+                    fugiat eius! Fuga mollitia maiores deserunt minus 
+                    praesentium neque ea repellat itaque nemo nostrum?
+                    </q>
+                </div>
+            </div>
+            <div class="testimony">
+                <div class="testifier">
+                    Jaylo
+                </div>
+                <div class="desc">
+                    <q>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Commodi esse omnis facilis voluptas mollitia reprehenderit quae, 
+                    fugiat eius! Fuga mollitia maiores deserunt minus 
+                    praesentium neque ea repellat itaque nemo nostrum?
+                    </q>
+                </div>
+            </div>
+            <div class="testimony">
+                <div class="testifier">
+                    Jaylo
+                </div>
+                <div class="desc">
+                    <q>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Commodi esse omnis facilis voluptas mollitia reprehenderit quae, 
+                    fugiat eius! Fuga mollitia maiores deserunt minus 
+                    praesentium neque ea repellat itaque nemo nostrum?
+                    </q>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer-bar></footer-bar>
     <script src="../scripts/menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init()
     </script>
-        
 </body>
 </html>

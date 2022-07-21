@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/index.css">
+    <script src="https://dcoder-x.github.io/htmlReusable/reusable.js"></script>
+    <script src="../scripts/navbar.js"></script>
+    <script src="./scripts/footer.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
+
+    <title>Classic Empire</title>
+</head>
+<body>
+    <nav-bar></nav-bar>
+    <header class="hero">
+        <div class="text-logo"> 
+            <p class="classic animate__animated animate__backInDown animate__slow">
+                Classic
+            </p>
+            <p class="empire animate__animated animate__backInLeft animate__slow">
+                Empire
+            </p>
+        </div>
+        <p class="hero-text animate__animated animate__backInUp animate__slow">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Illum adipisci facere at impedit, cupiditate architecto 
+            similique doloribus consequatur enim quisquam, animi dolores reiciendis necessitatibus deserunt! Deleniti suscipit ipsum officia. Fuga.
+        </p>
+    </header>
+    <main>
+
+        <section class="about section" data-aos="zoom-in-up">
+            <p class="section-text" data-aos="slide-up">ABOUT US</p>
+            <a href="../pages/about.html">
+                <button data-aos="zoom-in">
+                    View
+                </button>
+            </a>
+
+        </section>
+        <section class="artist section" data-aos="zoom-in-up">
+            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/artist.jpg" alt=""> -->
+            <p class="section-text"data-aos="slide-up">ARTIST MANAGEMENT</p>
+            <a href="../pages/management.html">
+                <button data-aos="zoom-in">
+                    View
+                </button>
+            </a>
+        </section>
+        <section class="studio section" data-aos="fade-right">
+            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/studio.jpg" alt=""> -->
+            <p class="section-text"data-aos="slide-up">STUDIO</p>
+            <a href="../pages/studio.html">
+                <button data-aos="zoom-in">
+                    View
+                </button>
+            </a>
+        </section>
+        <section class="promotions section"data-aos="fade-left">
+            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/promotion.jpg" alt=""> -->
+            <p class="section-text"data-aos="slide-up">PROMOTIONS</p>
+            <a href="../pages/promotion.html">
+                <button data-aos="zoom-in">
+                    View
+                </button>
+            </a>
+        </section>
+        <section class="media section"data-aos="zoom-in-up">
+            <!-- <img style="position: absolute; width:100vw;z-index: -2;height: 100vh;" src="./images/media.jpg" alt=""> -->
+            <p class="section-text"data-aos="slide-up">MEDIA</p>
+            <a href="../pages/media.html">
+                <button data-aos="zoom-in">
+                    View
+                </button>
+            </a>
+        </section>
+        <section class="maling-list"data-aos="zoom-in-down">
+            <p>
+                Sign up with your email to join our mailing list
+            </p>
+            <form action="">
+                <input type="text" placeholder="e-mail address...">
+                <button type="submit">
+                    Sign Up
+                </button>
+            </form>
+        </section>
+        <footer-bar></footer-bar>
+    </main>
+    <script src="../scripts/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
+        
+</body>
+</html>

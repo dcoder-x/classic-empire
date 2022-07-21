@@ -8,7 +8,7 @@ rel="stylesheet"
 <div class="navbar">
   <i class='bx bx-menu'></i>
   <div class="logo"><a href="/index.html">
-  <img src="../images/LOGO.svg" alt="">
+  <img src="./images/Classic empire (1).png" alt="">
   </a></div>
   <div class="nav-links">
     <div class="sidebar-logo">
