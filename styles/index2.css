@@ -24,14 +24,6 @@ figure{
 	scroll-padding: 1rem; */
 
 }
-header hr{
-    width: 0%;
-    color: #F58632;
-    border: none;
-    height: 1.5px;
-    border-radius: 3px;
-    animation: slidebar 5s infinite ease-in-out;
-}
 @keyframes slidebar {
     from{
         width: 0;
@@ -83,13 +75,34 @@ header hr{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url(../images/hero.jpeg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/hero.jpeg);
     background-repeat: no-repeat !important;
-    background-size: 100%;
+    background-size: 100% !important;
     background-position: center;
     background-attachment: fixed !important;
     /* border-bottom: #F58632 3px solid; */
     /* border-radius: 0 0 10% 10%; */
+}
+.slider:nth-child(2){
+    background-repeat: no-repeat !important;
+    background-size: cover !important ;
+    background-position: center;
+    background-attachment: fixed !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/resized2/studio.jpg);
+}
+.slider:nth-child(3){
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/resized2/artist.jpg);
+}
+.slider:nth-child(4){
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../images/resized2/animation_500_l5s48w1f.gif);
 }
 .slider-button{
     position: absolute;
@@ -399,6 +412,9 @@ section{
 @media screen and (max-width:770px) {
     .classic{
         margin-bottom: -.1rem;
+    }
+    .slider-tracker{
+        bottom: 7rem;
     }
     .slider{
         height: 70vh;
