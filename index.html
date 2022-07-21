@@ -15,14 +15,54 @@
 <body>
     <nav-bar></nav-bar>
     <header>
-        <div class="slider">
-            <p class="classic animate__animated animate__backInDown animate__slow">
-              We are  Classic
-            </p>
-            <p class="empire animate__animated animate__backInLeft animate__slow">
-                Empire
-            </p>
+        <!-- <div class="slider-button left">
+            <
         </div>
+        <div class="slider-button right">
+            >
+        </div> -->
+        <div class="slider-tracker">
+            <div class="tracker-path">
+                <div class="tracker">
+
+                </div>
+            </div>
+        </div>
+        <figure class="slide" draggable="true">
+            <div class="slider">
+                <p class="classic animate__animated animate__backInDown animate__slow">
+                  We are  Classic
+                </p>
+                <p class="empire animate__animated animate__backInLeft animate__slow">
+                    Empire
+                </p>
+            </div>
+            <div class="slider">
+                <p class="classic animate__animated animate__backInDown animate__slow">
+                  The Amazing
+                </p>
+                <p class="empire animate__animated animate__backInLeft animate__slow">
+                  Label
+                </p>
+            </div>
+            <div class="slider">
+                <p class="classic animate__animated animate__backInDown animate__slow">
+                  Classic
+                </p>
+                <p class="empire animate__animated animate__backInLeft animate__slow">
+                   Vibes
+                </p>
+            </div>
+            <div class="slider">
+                <p class="classic animate__animated animate__backInDown animate__slow">
+                  Hard
+                </p>
+                <p class="empire animate__animated animate__backInLeft animate__slow">
+                    Grind
+                </p>
+            </div>
+        </figure>
+        <hr>
     </header>
     <main>
         <section class="about">
@@ -49,7 +89,7 @@
         </section>
         <section class="services">
             <div class="section-title">
-                <p>OUR SERVICES</p>
+                <p>OUR <span>SERVICES</span> </p>
                 <hr>
             </div>
             <p class="services-text">
@@ -89,7 +129,7 @@
                         Eligendi totam eius quos magni beatae. Culpa dolorum in soluta, doloremque 
                         recusandae quasi at maiores ducimus neque esse dignissimos ipsa ea placeat!
                     </div>
-                    <a href="pages/studio.html">
+                    <a href="pages/studio.html ">
                         <button class="button">
                             View
                         </button>
@@ -120,7 +160,7 @@
         </section>
         <section class="team">
             <div class="section-title">
-                <p>THE TEAM</p>
+                <p>THE <span>TEAM</span></p>
                 <hr>
             </div>
             <div class="members">
@@ -194,6 +234,7 @@
         </section>
     </main>
     <footer-bar></footer-bar>
+    <script src="./scripts/anim.js"></script>
     <script src="../scripts/menu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
