@@ -19,9 +19,9 @@ nav{
   left: 0;
   width: 100%;
   height: 5rem;
-  background: rgba(0, 0, 0, 0.433);
+  background: rgba(0, 0, 0, 0);
   z-index: 99;
-  box-shadow: rgba(79, 79, 79, 0.39) 7px 7px 50px;
+  /* box-shadow: rgba(79, 79, 79, 0.39) 7px 7px 50px; */
 }
 nav .navbar{
   height: 100%;
@@ -175,8 +175,9 @@ nav .navbar .links li:hover .js-sub-menu{
     display: block;
     max-width: 270px;
     width: 100%;
-    background-color: rgba(0,0,0, 0.9);
-    line-height: 40px;
+    background-color: rgba(0,0,0, 0.4);
+    line-height: 50px;
+    backdrop-filter: blur(5px);
     padding: 20px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.5s ease;
