@@ -127,18 +127,22 @@ h2{
     .what-you-get{
         flex-direction: column;
     }
+    h2{
+        font-size: 5vw;
+    }
     .what-you-get img{
         width: 50%;
     }
     .offer{
         width: 100%;
+        font-size: 4vw;
     }
     .pricing{
         flex-direction: column;
     }
     .price-cards{
-        width: 80%;
-        margin: 2rem;
+        width: 95%;
+        margin: 2rem 0;
     }
 }
 @media screen and (max-width:700px) {
