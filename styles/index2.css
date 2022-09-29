@@ -360,6 +360,7 @@ section{
 }
 .service .details{
     width: 40%;
+    padding: 2rem;
 }
 .service .details:nth-child(even){
     margin-left: 3rem;
@@ -380,10 +381,11 @@ section{
     font-weight: 400;
     font-size: 34px;
     color: #FFFFFF;
+    line-height: 1;
 }
 .service .desc{
     margin: 1rem 0;
-    width: 80%;
+    width: 100%;
 }
 .team{
     min-height: auto;
