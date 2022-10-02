@@ -258,7 +258,7 @@ figure{
     color:#F58632 ;
     margin-top: -2rem;
 }
-main{
+main{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,6 +268,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2rem 0;
     
 }
 .section-title p{
