@@ -62,6 +62,7 @@ video{
     header{
         font-size: 12vw;
         background-position: center !important;
+        height: 50vh;
     }
 }
 @media screen and (max-width:700px) {

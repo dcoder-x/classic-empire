@@ -20,7 +20,7 @@ header{
     background-position: left;
     background-repeat: no-repeat !important;
     background-size: cover !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/resized2/contact.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),url(../images/bg/contact.jpg);
 }
 .title{
     color: #FFFFFF;
@@ -83,6 +83,14 @@ form button{
     justify-content: space-evenly;
     align-items: center;
     height: 80%;
+    width: 45%;
+}
+.gmap_canvas{
+    width: 100% !important;
+}
+.mapouter{
+    text-align: unset !important;
+    width: 100% !important;
 }
 .contact-info{
     width: 100%;
@@ -90,6 +98,8 @@ form button{
 }
 .contact-info  hr{
     margin-top: 1.5rem;
+    width: 80%;
+    text-align: center;
 }
 .contact-info small,a{
     font-size: 15px;
@@ -111,7 +121,7 @@ form button{
     footer{
         text-align: center;
         font-size: 0.6rem;
-       
+        height: 50vh;
     }
     .iconify{
         width: 30px;
@@ -126,6 +136,12 @@ form button{
         text-align: left;
     }
     form button{
+        width: 100%;
+    }
+    .contact-info  hr{
+        width: 100%;
+    }
+    .contact-info  hr{
         width: 100%;
     }
 }

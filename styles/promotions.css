@@ -123,6 +123,7 @@ h2{
     header{
         font-size: 12vw;
         background-position: center !important;
+        height: 50vh;
     }
     .what-you-get{
         flex-direction: column;

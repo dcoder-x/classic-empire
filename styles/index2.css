@@ -122,7 +122,7 @@ figure{
     background-size: cover !important ;
     background-position: center;
     background-attachment: fixed !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/resized2/jeffery-erhunse-WJwRr3pW5FA-unsplash-min.jpg
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg/headphone.jpg
     );
 }
 .slider:nth-child(3){
@@ -130,14 +130,14 @@ figure{
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/resized2/grow.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg/dancer.jpg);
 }
 .slider:nth-child(4){
     background-repeat: no-repeat !important;
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/resized2/osman-rana-G7VN8NadjO0-unsplash.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg/recording.jpg);
 }
 .slider-button{
     position: absolute;

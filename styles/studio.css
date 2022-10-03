@@ -177,6 +177,7 @@ form button{
     header{
         font-size: 12vw;
         background-position: center !important;
+        height: 50vh;
     }
     .pricing{
         flex-direction: column;
