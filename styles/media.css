@@ -2,7 +2,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #38383B;
+    background-color: rgb(0,0,0);
 }
 header{
     height: 80vh;
@@ -29,7 +29,7 @@ main{
     align-items: center;
     color: #FFFFFF;
     padding: 3rem 0rem;
-    background-color: #38383B;
+    background-color: rgb(0,0,0);
     min-height: 70vh;
 }
 section{

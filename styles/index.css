@@ -102,13 +102,13 @@ main{
     width: 150px;
     color: white;
     border: none;
-    box-shadow: #38383bbc 2px 2px 10px;
+    box-shadow: rgb(0,0,0)bc 2px 2px 10px;
     border-radius: 3px;
     cursor: pointer;
 }
 .maling-list{
     min-height: 30vh;
-    background-color: #38383B;
+    background-color: rgb(0,0,0);
     width: 100%;
     display: flex;
     flex-direction: column;
