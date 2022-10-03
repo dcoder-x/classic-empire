@@ -117,7 +117,10 @@ form button{
         background-position: center !important;
     }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:900px) {
+    .contact-info-holder {
+        width: 90%;
+    }
     footer{
         text-align: center;
         font-size: 0.6rem;

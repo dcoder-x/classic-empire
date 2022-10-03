@@ -147,7 +147,7 @@ form button{
         font-size: 12vw;
     }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:900px) {
     .hero{
         flex-direction: column;
         justify-content: center;

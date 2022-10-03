@@ -110,6 +110,23 @@ h2{
     margin: 2rem;
     font-size: 35px;
 }
+.coming{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 6rem 0;
+    padding: 3rem 0;
+}
+.coming .lottie{
+    width: 40%;
+}
+.coming h1{
+    text-align: center;
+    color: #f58632;
+    font-size: 50px;
+}
 .get-started{
     color: white;
     border: none;
@@ -146,10 +163,21 @@ h2{
         margin: 2rem 0;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .content{
         width: 80vw;
         height: 80vw;
         margin: 3rem 0;
+    }
+    .coming{
+        margin: 4rem 0;
+        padding: 2rem 0;
+    }
+    .coming .lottie{
+        width: 70%;
+    }
+    .coming h1{
+
+        font-size: 40px;
     }
 }

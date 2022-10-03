@@ -65,7 +65,7 @@ video{
         height: 50vh;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .pictures img{
         width: 70vw;
         height: 70vw;

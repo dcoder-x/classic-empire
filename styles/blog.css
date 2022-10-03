@@ -90,7 +90,7 @@ section{
         height: 50vh;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .content{
         width: 80vw;
         height: 80vw;

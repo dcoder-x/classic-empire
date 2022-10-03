@@ -187,7 +187,7 @@ form button{
         margin: 2rem;
     }
 }
-@media screen and (max-width:770px) {
+@media screen and (max-width:900px) {
     footer{
         text-align: center;
         font-size: 0.6rem;
