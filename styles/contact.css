@@ -118,13 +118,18 @@ form button{
     }
 }
 @media screen and (max-width:900px) {
+    header{
+        font-size: 12vw;
+        background-position: right !important;
+        height:50vh;
+    }
     .contact-info-holder {
         width: 90%;
     }
     footer{
         text-align: center;
         font-size: 0.6rem;
-        height: 50vh;
+        /* height: 50vh; */
     }
     .iconify{
         width: 30px;
