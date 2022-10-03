@@ -48,7 +48,7 @@ main{
 }
 .price-cards{
     background-color: black;
-    width: 25vw;
+    width: 30vw;
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
@@ -168,6 +168,10 @@ form button{
     background: #ff7e5f;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #feb47b, #ff7e5f);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #feb47b, #ff7e5f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.appointy{
+    width: 50%;
+    min-height: 70vh;
 }
 @media screen and (max-width:1000px) {
     header{
