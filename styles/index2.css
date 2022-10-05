@@ -137,7 +137,7 @@ figure{
     background-size: cover !important;
     background-position: center;
     background-attachment: fixed !important;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg/recording.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../images/bg/singstress.jpg);
 }
 .slider-button{
     position: absolute;
