@@ -41,7 +41,7 @@ section{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 2vw;
+    font-size: 4vw;
     line-height: 49px;
     color: #FFFFFF;
 }
@@ -66,6 +66,6 @@ section{
 }
 @media screen and (min-width:1000px) {
     .company-desc{
-      font-size: 15px;
+      font-size: 25px;
     }
 }
