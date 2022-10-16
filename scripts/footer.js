@@ -10,10 +10,10 @@ rel="stylesheet"
     © 2022 Classic Empire Records, All rights reserved. 
 </small>
 <div class="socials" >
-    <a href=''>
+    <a href='mailto:info@classicempire.org'>
         <span class="iconify" data-aos="fade-up" data-icon="ic:baseline-email" style="color: #f58632;"></span>
     </a>
-    <a href=''>
+    <a href='https://www.facebook.com/classicempire007'>
     <span class="iconify" data-aos="fade-up" data-aos-delay='100'  data-icon="entypo-social:facebook-with-circle" style="color: #f58632;"></span>
     </a>
     <a href=''>
