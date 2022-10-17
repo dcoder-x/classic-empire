@@ -16,8 +16,8 @@ rel="stylesheet"
     <a href='https://www.facebook.com/classicempire007'>
     <span class="iconify" data-aos="fade-up" data-aos-delay='100'  data-icon="entypo-social:facebook-with-circle" style="color: #f58632;"></span>
     </a>
-    <a href=''>
-    <span class="iconify" data-aos="fade-up" data-aos-delay='200' data-icon="ant-design:twitter-circle-filled" style="color: #f58632;"></span>
+    <a href='https://vm.tiktok.com/ZMFMbXdxH/'>
+    <span class="iconify" data-aos="fade-up" data-aos-delay='200' data-icon="fa-brands:tiktok" style="color: #f58632;"></span>
     </a>
     <a href='https://www.instagram.com/classic.empire_/'>
     <span class="iconify" data-aos="fade-up" data-aos-delay='300' data-icon="bxl:instagram-alt" style="color: #f58632;"></span>
