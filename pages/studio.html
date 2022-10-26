@@ -82,11 +82,24 @@
             </div>
         </section>
         
-        <button class="action-btn" data-aos="zoom-in" onclick="appointment()">
-            Book a service now
-        </button>
-        <!-- <iframe class="appointy" src="https://booking.appointy.com/Wivrrtech" frameborder="0"></iframe>
-        <div class="popForm">
+        <a href="https://booking.appointy.com/classicempire" target="_blank"><img src="https://appointy.com/Images/scheduleme.png" alt="" border="0" /></a>
+        <script type="text/javascript" src="https://cdn.appointy.com/web/blob-web/js/appointy-widget.js"></script>
+        <iframe id="appointy-iframe" class="no-border" src="https://booking.appointy.com/classicempire?isgadget=1&autoheight=1"  scrolling="no" width="100%" frameBorder="0"></iframe>
+        <script>
+            (function() {
+                const ifrm = document.getElementById("appointy-iframe");
+                window.addEventListener("message", function (e) {
+                    const d = e.data || {};
+                    if (d.type === "height"){
+                        ifrm.style.height = d.data + "px";
+                    }
+                    if (d.type === "scroll") {
+                        ifrm.scrollIntoView();
+                    }
+                });
+            })();
+        </script>
+        <!-- <div class="popForm">
             <form action="">
                 <p>
                     Book a service now
@@ -123,8 +136,8 @@
                 </div>
 
             </form>
-        </div> -->
-        
+        </div>
+         -->
 
     </main>
     <footer-bar>
